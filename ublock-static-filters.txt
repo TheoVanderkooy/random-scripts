@@ -1,0 +1,10 @@
+! To install:
+!  - right-click ublock extension icon > settings
+!  - "My filters" tab and either "import and append" or just paste this into the box
+
+
+! block premiers from subscription feed
+www.youtube.com###items > ytd-grid-video-renderer.ytd-grid-renderer.style-scope:contains(Set reminder)
+
+! remove "shorts" tab from sidebar
+www.youtube.com###items > ytd-guide-entry-renderer:has(> a[title="Shorts"])
